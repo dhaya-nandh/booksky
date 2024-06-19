@@ -1,43 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Booksky</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
     <div class="navbar">
-      <h1>Booksky</h1>
-    </div>
+    <h1>Booksky</h1>
+</div>
     <div class="constainer">
-      <div class="book-constainer">
+        <div class="book-constainer">
         <h3>HARRY POTTER</h3>
         <h5>David</h5>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
-          facilis eaque architecto repellat reiciendis sit, veritatis
-          perspiciatis quibusdam doloribus magnam atque odio consectetur,
-          obcaecati tenetur mollitia natus consequatur explicabo excepturi.
-        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis eaque architecto repellat reiciendis sit, veritatis perspiciatis quibusdam doloribus magnam atque odio consectetur, obcaecati tenetur mollitia natus consequatur explicabo excepturi.</p>
         <button onclick="del(event)">delete</button>
-      </div>
+    </div>
     </div>
     <div class="popup-overlay">
-      <div class="popup-box">
-        <h2>ADD BOOK</h2>
+        <div class="popup-box">
+            <h2>ADD BOOK</h2>
         <form>
-          <input type="text" placeholder="Add Title" id="book-title" />
-          <input type="text" placeholder="Add Author" id="book-author" />
-          <textarea
-            type="text"
-            placeholder="Short Description"
-            id="book-description"
-          ></textarea>
-          <button id="add-book">Add</button>
-          <button id="cancel">Cancel</button>
+            <input type="text" placeholder="Add Title" id="book-title">
+            <input type="text" placeholder="Add Author"id="book-author">
+            <textarea type="text" placeholder="Short Description" id="book-description"></textarea>
+            <button id="add">Add</button>
+            <button id="cancel">Cancel</button>
         </form>
-      </div>
-    </div>
+    </div></div>
     <button class="add-button" id="add-popup">+</button>
     <script src="book.js"></script>
-  </body>
+</body>
 </html>
